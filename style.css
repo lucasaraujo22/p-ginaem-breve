@@ -1,0 +1,189 @@
+.sec-1 {
+    background-image: url(./Assets/akan-datang-angka-bangunan-data-211122.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    margin-left: -50px;
+    position: relative;
+}
+
+.color:after {
+    background-color: rgba(137, 139, 161, 0.6);
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 720px;
+    position: absolute;
+}
+
+@font-face {
+    font-family: "Knewave";
+    src: url(./Assets/Fontes/Knewave.ttf);
+}
+
+@font-face {
+    font-family: "NewsCycle";
+    src: url(./Assets/Fontes/NewsCycle-Regular.ttf);
+    src: url(./Assets/Fontes/NewsCycle-Bold.ttf);
+}
+
+@font-face{
+    font-family: "Lobster";
+    src: url(./Assets/Fontes/LobsterTwo-BoldItalic.ttf);
+}
+
+.first-txt-box {
+    width: 200px;
+    display: block;
+    padding-top: 50px;
+}
+
+.first-txt {
+    margin-top: 20px;
+    margin-left: -9px;
+    font-family: "Lobster";
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    z-index: 6;
+}
+
+.second-txt {
+    font-family: "NewsCycle";
+    font-size: 60px;
+    width: 550px;
+    margin-left: -180px;
+    margin-top: 100px;
+    color: white;
+    position: absolute;
+    z-index: 6;
+}
+
+.call-read {
+    font-family: "Knewave";
+    font-size: 45px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.alinha {
+    width: 400px;
+    background-color: orangered;
+    margin-bottom: 70px;
+}
+
+.apresent-txt {
+    width: 550px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: "NewsCycle";
+    font-size: 24px;
+}
+
+.stacks {
+    margin-left: 55%;
+}
+
+.stacks-txt {
+    font-family: "Knewave";
+    font-size: 38px;
+}
+
+.stacks-barra {
+    margin-left: 55%;
+    margin-bottom: 50px;
+    width: 500px;
+    background-color: blue;
+}
+
+.Knewaves {
+    font-family: "Knewave";
+}
+
+.News {
+    font-family: "NewsCycle";
+    margin-bottom: 50px;
+}
+
+h2.News{
+    margin-bottom: 10px;
+}
+
+h1.News {
+    margin-bottom: -50px;
+    font-size: 20px;
+}
+
+.stacks-use {
+    margin-top: 50px;
+}
+
+.tam-img {
+    width: 100px;
+    height: 100px;
+}
+
+.spaced-left {
+    padding-left: 100px;
+}
+
+.program-txt {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+h2.program-txt {
+    margin-left: 0px;
+}
+
+h3.program-txt {
+    margin-left: 15px;
+}
+
+h4.program-txt {
+    margin-left: 10px;
+}
+
+.color-barra-blue {
+    background-color: blue;
+}
+
+.color-barra-orange {
+    background-color: orangered;
+}
+
+.-bot {
+    margin-bottom: 0px;
+}
+
+footer {
+background-image: url(./Assets/fundoFooter.jpg);
+    padding-top: 25px;
+    padding-bottom: 1%;
+}
+
+.foot-txt {
+    margin-bottom: 25px;
+    width: 450px;
+    color: white;
+}
+
+.second-txt-foot {
+    width: 400px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.foot-img {
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+.thirt-text{
+    margin-left: 25px;
+    font-size: 18px;
+    color: whitesmoke;
+}
