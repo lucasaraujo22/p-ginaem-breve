@@ -1,5 +1,5 @@
 .sec-1 {
-    background-image: url(./Assets/akan-datang-angka-bangunan-data-211122.jpg);
+    background-image: url(../Assets/img/akan-datang-angka-bangunan-data-211122.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 720px;
@@ -18,26 +18,35 @@
     position: absolute;
 }
 
+.mold-img {
+    width: 400px;
+    position: absolute;
+    z-index: 6;
+    margin-left: 465px;
+    margin-top: 20px;
+    height: 200px;
+}
+
 @font-face {
     font-family: "Knewave";
-    src: url(./Assets/Fontes/Knewave.ttf);
+    src: url(../Assets/Fontes/Knewave.ttf);
 }
 
 @font-face {
     font-family: "NewsCycle";
-    src: url(./Assets/Fontes/NewsCycle-Regular.ttf);
-    src: url(./Assets/Fontes/NewsCycle-Bold.ttf);
+    src: url(../Assets/Fontes/NewsCycle-Regular.ttf);
+    src: url(../Assets/Fontes/NewsCycle-Bold.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "Lobster";
-    src: url(./Assets/Fontes/LobsterTwo-BoldItalic.ttf);
+    src: url(../Assets/Fontes/LobsterTwo-BoldItalic.ttf);
 }
 
 .first-txt-box {
     width: 200px;
     display: block;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .first-txt {
@@ -75,11 +84,11 @@
 }
 
 .apresent-txt {
-    width: 550px;
+    width: 650px;
     margin-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     font-family: "NewsCycle";
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .stacks {
@@ -107,15 +116,6 @@
     margin-bottom: 50px;
 }
 
-h2.News{
-    margin-bottom: 10px;
-}
-
-h1.News {
-    margin-bottom: -50px;
-    font-size: 20px;
-}
-
 .stacks-use {
     margin-top: 50px;
 }
@@ -136,11 +136,11 @@ h1.News {
 }
 
 h2.program-txt {
-    margin-left: 0px;
+    margin-left: 15px;
 }
 
 h3.program-txt {
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 h4.program-txt {
@@ -149,10 +149,12 @@ h4.program-txt {
 
 .color-barra-blue {
     background-color: blue;
+    width: 1150px;
 }
 
 .color-barra-orange {
     background-color: orangered;
+    width: 1150px;
 }
 
 .-bot {
@@ -160,7 +162,7 @@ h4.program-txt {
 }
 
 footer {
-background-image: url(./Assets/fundoFooter.jpg);
+    background-image: url(../Assets/img/fundo-footer.jpg);
     padding-top: 25px;
     padding-bottom: 1%;
 }
@@ -182,8 +184,64 @@ background-image: url(./Assets/fundoFooter.jpg);
     margin-left: 10px;
     margin-bottom: 7px;
 }
-.thirt-text{
+
+.thirt-text {
     margin-left: 25px;
     font-size: 18px;
     color: whitesmoke;
+}
+
+@media only screen and (max-device-width: 630px) {
+    .sec-1
+    
+    .mold-img {
+        margin-left: 55px;
+        height: 250px;
+        width: 300px;
+    }
+    .second-txt {
+        margin-left: 50px;
+        width: 150px;
+    }
+    .apresent-txt {
+        width: 300px;
+    }
+    .alinha {
+        width: 100px;
+    }
+    .color-barra-blue {
+        background-color: blue;
+        width: 280px;
+        margin-left: 20px;
+    }
+    .color-barra-orange {
+        background-color: orangered;
+        width: 280px;
+        margin-left: 20px;
+    }
+    .stacks-txt {
+        font-size: 22px;
+    }
+    .stacks-barra {
+        width: 100px;
+    }
+    .tam-img {
+        width: 50px;
+    }
+    .spaced-left {
+        padding-left: 0px;
+    }
+    .program-txt {
+        margin-left: -20px;
+        font-size: 13px;
+    }
+    h4.program-txt{
+        margin-left: -5px;
+    }
+    .foot-txt {
+        font-size: 23px;
+    }
+    .foot-img {
+        width: 25px;
+    }
 }
